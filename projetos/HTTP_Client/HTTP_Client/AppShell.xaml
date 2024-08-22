@@ -8,11 +8,14 @@
     Title="HTTP_Client">
 
     <ShellContent
-        Title="Home"
+        Title="Listar Postagens"
         ContentTemplate="{DataTemplate local:PostView}"
-        Route="MainPage" />
+        Route="PostView" />
+    <ShellContent
+    Title="CriarPostagens"
+    ContentTemplate="{DataTemplate local:PostView}"
+    Route="CreatePostView" />    
         
-    
     
     
 </Shell>

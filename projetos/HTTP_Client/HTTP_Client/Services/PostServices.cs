@@ -44,4 +44,18 @@ namespace HTTP_Client.Services
             return posts;
         }
     }
+        public async Task<Post> SavePostAsync()
+    {
+        return post;
+        try
+        {
+
+        }
+        catch
+        {
+
+        }
+
+    }
+
 }
